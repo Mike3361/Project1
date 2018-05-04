@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 92.5%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+      
+      
+      <style>
+		#mappage,
+		#map {
+			width: 100%;
+			height: 90%;
+			padding: 0;
+		}
+	</style>
+      
+      
+       	<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height" />
+        <link href="jquerymobile/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
+        <script src="jquerymobile/jquery-1.11.1.min.js"></script>
+		<script src="jquerymobile/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    	<script src="cordova.js"></script>
+        <script src="backendless.js"></script>  
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPo4sdKmUmQsqWsjsaHEHdVosVTuIuxTs"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      
+        <script src="index.js"></script>
+      
+      
+  </head>
+
+        
+ 
+
+  <body onload="updatePosition()">
+      
+      
+      
+      
+      
+      <div id="mappage" data-role="page">
+          
+	   <div data-role="header">...</div>
+	   <div id="map" role="main" class="ui-content">...</div>
+          
+	   <div data-role="footer">  <a onclick=window.location.href='index.html' class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back">Log out</a>
+          <a onclick=window.location.href='nightmap.html' class="ui-btn-right ui-shadow ui-corner-all ">Night mode</a></div>
+    </div>
+    
+      
+      
+         
+
+    
+  
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPo4sdKmUmQsqWsjsaHEHdVosVTuIuxTs" async defer></script>-->
+
+
+  
+ 
+    
+      
+
+ 
+
+
+</body>
+</html>
