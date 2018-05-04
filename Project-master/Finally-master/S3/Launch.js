@@ -38,7 +38,7 @@ function recognize(user) {
         
         //not worked 
         //user not logged in
-       alert(error);
+       alert("error message - " + error.message );
         //error message contains reason why not
         
    });
