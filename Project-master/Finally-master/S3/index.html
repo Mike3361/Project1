@@ -8,6 +8,7 @@
     	<script src="cordova.js"></script>
         <script src="backendless.js"></script>
         <script src="Launch.js"></script>
+        <script src="retrieve.js"></script>
 	</head>
     
     <body>	
@@ -22,12 +23,27 @@
                 
                 <input type="button" id="launch" value="Sign in" />
                 <input onclick=window.location.href='Register.html' type="button" id="signup" value="Sign up" />
-                <a href= 'retrieve.html'>Forget password?</a>
+                <a href= '#retrieve'>Forget password?</a>
                 
 
     		</div>
     
     	</div>
+            	<div data-role="page" id="retrieve">
+      		
+       
+      		<div data-role="content">
+                <div class="text" style="text-align:center">Bicycle Checking System</div>
+        	
+            	Email address: <input type="text" name="emailaddress" id="emailaddress" value="" placeholder="" />
+                
+                <input  type="button" id="return" value="Return" />
+                
+
+    		</div>
+    
+    	</div>
+    
     
 		
 

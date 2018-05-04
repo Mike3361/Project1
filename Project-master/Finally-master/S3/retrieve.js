@@ -43,7 +43,7 @@ function checkConnection() {
  
     if(networkState = "none")
  
-    alert('Connection type: No network connection');
+    alert('Connection type: No network connection')
 }
 }
 
