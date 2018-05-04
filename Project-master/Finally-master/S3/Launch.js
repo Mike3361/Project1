@@ -23,11 +23,8 @@ function recognize(user) {
 		console.log("launch button clicked");
         var email = $("#emailadress").val();
         var pass = $("#pass").val();
-    if(email=='') navigator.notification.alert(
-    'Please enter your Username!',  // message
-    'Username error',            // title
-    'Done'                  // buttonName
-);
+    if(email=='')     alert("Please enter your email.");
+
  if(pass=='') alert("Please enter your password.");
     
 
